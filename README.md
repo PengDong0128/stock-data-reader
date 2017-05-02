@@ -15,3 +15,12 @@
 - Price and sentiment data are collected from Quandl.com
 - S&P500 Index is collected from Yahoo Finance
 - There is also a port for importing external data
+## For using this module , you must have an API Key for quandl.com. You just need to sign up on the webpage and find API Key in your account setting. If you want to use sentiment data , you have to subscribe "FinSentS Web News Sentiment", the link is https://www.quandl.com/data/NS1-FinSentS-Web-News-Sentiment .
+### Import the module and initialize it:
+
+
+```python
+from CONSTRUCT_THE_DATASET import StockDataReader
+reader = StockDataReader("your_api_key")
+```
+### Other details could be found in the instruction.
