@@ -20,7 +20,7 @@
 
 
 ```python
-from CONSTRUCT_THE_DATASET import StockDataReader
+from stock_data_reader import StockDataReader
 reader = StockDataReader("your_api_key")
 ```
 ### Other details could be found in the instruction.
